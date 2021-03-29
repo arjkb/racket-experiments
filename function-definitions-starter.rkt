@@ -7,3 +7,5 @@
   (circle 40 "solid" c))
 
 (bulb "blue")
+
+(bulb (string-append "or" "ange"))
