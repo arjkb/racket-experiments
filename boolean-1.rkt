@@ -46,3 +46,8 @@
        (image-height I2))
     (image-width I2)
     (image-height I2))
+
+; is I1 taller and skinnier than I2 ?
+(and (> (image-height I1) (image-height I2))
+     (< (image-width I1) (image-width I2)))
+
