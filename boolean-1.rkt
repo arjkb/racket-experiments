@@ -23,18 +23,26 @@
 ;(string-append "width" (image-width I1))
 ;(string-append "height" (image-height I1))
 
-(image-width I1)
-(image-height I1)
+;(image-width I1)
+;(image-height I1)
 
 ;(< (image-width I1)
 ;   (image-width I2))
 
-(if (< (image-width I1)
-       (image-height I1))
-    "tall"
-    "wide")
+;(if (< (image-width I1)
+;       (image-height I1))
+;    "tall"
+;    "wide")
+
+(image-width I2)
+(image-height I2)
 
 (if (< (image-width I2)
        (image-height I2))
     "tall"
     "wide")
+
+(if (< (image-width I2)
+       (image-height I2))
+    (image-width I2)
+    (image-height I2))
